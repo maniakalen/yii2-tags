@@ -1,0 +1,36 @@
+{
+  "name": "maniakalen/tags",
+  "description": "Yii2 Element tags integration module",
+  "keywords": [
+    "PHP", "Yii2", "Tags"
+  ],
+  "license": "proprietary",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Petar Ivanov"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6.0",
+    "yiisoft/yii2" : ">=2.0.12"
+  },
+  "provide": {
+    "bower-asset/jquery": "3.4.1@stable"
+  },
+  "autoload": {
+    "psr-0": {
+      "maniakalen\\": "src/"
+    }
+  },
+  "archive": {
+    "exclude": ["vendor", "build.xml", "composer.lock"]
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
