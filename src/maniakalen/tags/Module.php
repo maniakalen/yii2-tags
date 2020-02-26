@@ -32,16 +32,6 @@ use yii\base\Module as BaseModule;
 class Module extends BaseModule implements BootstrapInterface
 {
 
-    const RULE_GROUP_FRONTEND = 'frontend';
-    const RULE_GROUP_BACKEND = 'backend';
-
-    public $controllerNamespace;
-    public $urlRules;
-    public $events;
-    public $container;
-    public $components;
-    public $group;
-
     /**
      * Module initialisation
      *
