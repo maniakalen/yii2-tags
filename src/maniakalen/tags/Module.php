@@ -11,14 +11,12 @@
  * @link     -
  */
 
-namespace maniakalen\i18n;
+namespace maniakalen\tags;
 
 use Yii;
 use yii\base\Application;
 use yii\base\BootstrapInterface;
-use yii\base\Event;
 use yii\base\Module as BaseModule;
-use yii\helpers\ArrayHelper;
 
 /**
  * Class Module
