@@ -5,7 +5,7 @@ namespace maniakalen\tags\migrations;
 
 use yii\db\Migration;
 
-class M200226_121010_Tags_system extends Migration
+class m200216_215816_Tags_system extends Migration
 {
     public function safeUp()
     {
